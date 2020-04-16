@@ -8,7 +8,7 @@ const fs = require ('fs');
 const app = express ();
 const port = 3030
 // Levantando el Servidor en el puerto 3030
-app.listen(port, () => console.log('Server running in ' + port +'port'));
+app.listen(port, () => console.log('Server running in ' + port +' port'));
 
 
 // Ruta Raíz / ➝ Home
