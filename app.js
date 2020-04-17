@@ -10,4 +10,7 @@ const port = 3030
 // Levantando el Servidor en el puerto 3030
 app.listen(port, () => console.log('Server running in ' + port +' port'));
 
-const home = require ('home')
+const home = require ('./Routes/home');
+const heroes= require ('./Routes/heroes');
+
+app.use('/',home)
